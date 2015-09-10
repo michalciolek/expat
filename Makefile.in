@@ -106,7 +106,8 @@ mkdir-init:
 
 CC = @CC@
 CXX = @CXX@
-LIBTOOL = @LIBTOOL@
+#TEMP FIX for Raspberry!
+LIBTOOL = "libtool"
 
 INCLUDES = -I$(srcdir)/lib -I.
 LDFLAGS = @LDFLAGS@
